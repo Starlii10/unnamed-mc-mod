@@ -1,0 +1,29 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "unnamed_minecraft_mod",
+    "modName": "Unnamed Minecraft Mod",
+    "version": "1.0.0",
+    "author": "Starlii10",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.starlii.umm",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
