@@ -16,6 +16,10 @@ package net.starlii.umm;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.starlii.umm.init.UnnamedMinecraftModModTabs;
+import net.starlii.umm.init.UnnamedMinecraftModModItems;
+import net.starlii.umm.init.UnnamedMinecraftModModEntities;
+
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.NetworkEvent;
@@ -46,6 +50,11 @@ public class UnnamedMinecraftModMod {
 	public UnnamedMinecraftModMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		UnnamedMinecraftModModItems.REGISTRY.register(bus);
+		UnnamedMinecraftModModEntities.REGISTRY.register(bus);
+
+		UnnamedMinecraftModModTabs.REGISTRY.register(bus);
 
 	}
 

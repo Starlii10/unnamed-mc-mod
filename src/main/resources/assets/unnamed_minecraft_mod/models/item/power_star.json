@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "unnamed_minecraft_mod:item/starlii_star"
+  }
+}

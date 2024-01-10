@@ -1,9 +1,43 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PowerStar",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unnamed_minecraft_mod/models/item/power_star.json",
+          "src/main/java/net/starlii/umm/item/PowerStarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Starlii",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starlii",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/unnamed_minecraft_mod/models/item/starlii_spawn_egg.json",
+          "src/main/java/net/starlii/umm/client/renderer/StarliiRenderer.java",
+          "src/main/java/net/starlii/umm/entity/StarliiEntity.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.unnamed_minecraft_mod.power_star": "Power Star",
+      "item.unnamed_minecraft_mod.starlii_spawn_egg": "Starlii Spawn Egg",
+      "entity.unnamed_minecraft_mod.starlii": "Starlii"
+    }
   },
   "foldersRoot": {
     "name": "~",
